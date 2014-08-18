@@ -5,6 +5,5 @@
 <%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
 <%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
 
-<html>
-    <h1>Hello World</h1>
-</html> 
+
+<jsp:forward page="Welcome.do"/>

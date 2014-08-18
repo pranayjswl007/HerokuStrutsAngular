@@ -7,6 +7,6 @@
     <property name="hibernate.connection.url">jdbc:postgresql://ec2-23-21-170-57.compute-1.amazonaws.com:5432/d8gd90pb6ar8lf?ssl=true&amp;sslfactory=org.postgresql.ssl.NonValidatingFactory</property>
     <property name="hibernate.connection.username">vtagopktthpmwg</property>
     <property name="hibernate.connection.password">_QqmlSuxTHysEcp9O4sH_DBjm3</property>
-    <mapping resource="com/heroku/employeee/Employees.hbm.xml"/>
+    <mapping resource="hibernatePackage/Employees.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

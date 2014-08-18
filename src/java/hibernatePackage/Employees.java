@@ -1,5 +1,5 @@
-package com.heroku.employeee;
-// Generated 18 Aug, 2014 11:56:19 PM by Hibernate Tools 3.6.0
+package hibernatePackage;
+// Generated 19 Aug, 2014 12:05:02 AM by Hibernate Tools 3.6.0
 
 
 import java.math.BigDecimal;

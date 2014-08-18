@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 18 Aug, 2014 11:56:19 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="com.heroku.employeee.Employees" table="employees" schema="public">
+        <id name="employeeId" type="int">
+            <column name="employee_id" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="age" type="java.lang.Integer">
+            <column name="age" />
+        </property>
+        <property name="phone" type="string">
+            <column name="phone" />
+        </property>
+        <property name="basicsalary" type="big_decimal">
+            <column name="basicsalary" precision="131089" scale="0" />
+        </property>
+        <property name="totalsalary" type="big_decimal">
+            <column name="totalsalary" precision="131089" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>
